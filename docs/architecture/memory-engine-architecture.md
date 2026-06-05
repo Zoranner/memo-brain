@@ -618,6 +618,8 @@ graph hop 在召回里同时扮演两类角色，这一点应单独说清：
 - 图扩展候选的新增规模默认受 `graph_limit` 约束，快路径参考值为 `limit * 4`，deep 参考值为 `limit * 8`；
 - 因此 MMR 面对的应是经过来源限流与去重后的有界候选池，而不是无上限混排。
 
+面向智能体的意图扩展检索设计，单独见 [`agent-intent-expanded-recall.md`](./agent-intent-expanded-recall.md)。
+
 ### `memo reflect`
 
 职责：查看单条记忆详情。
